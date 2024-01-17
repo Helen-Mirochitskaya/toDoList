@@ -1,0 +1,69 @@
+body {
+  background-image: url( image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+
+.app {
+  background-color: #F0ECE5;
+  min-height: 55vh;
+  width: 385px;
+  margin-left: 195px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 85px;
+  border: solid 6px #163020;
+  border-radius: 20px;
+}
+
+ul, li {
+  list-style: none;
+  padding: 12px;
+  margin: 0;
+}
+
+.crossed {
+  text-decoration: line-through 2px #750E21;
+  }
+
+.container {
+  display: flex;
+  justify-content: center;
+  }
+
+h1 {
+  margin-top: 50px;
+  font-size: 40px;
+  padding: 10px;
+}
+
+input {
+  flex: 1;
+  margin: 12px;
+  min-width: 200px;
+  font-size: 13px;
+  padding: 15px;
+  border: solid 2px #163020;
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  font-size: 17px;
+  
+    }
+
+  
+
+ .add {
+  background-color: #B6C4B6;
+  margin-top: 15px;
+
+ }
+
+
+ .delete {
+  background-color: #750E21;
+  margin-bottom: 5px;
+
+ }
